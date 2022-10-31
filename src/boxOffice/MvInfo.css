@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+h1 {
+  background-color: #738A9B;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.content {
+
+  justify-content: center;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  line-height: 200%;
+  padding: 5px;
+  justify-content: center;
+}
+
+span {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.likes {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: larger;
+
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  background-color: aqua;
+  width: 100%;
+  padding: 10px; 
+}
+
+.mvForm {
+  height: 500px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.but {
+  display: flex;
+  justify-content: center;
+
+}
+.refLi {
+  display: flex;
+  font-weight: bold;
+  font-style: italic;
+}
